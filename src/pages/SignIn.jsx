@@ -14,7 +14,7 @@ const SignIn = () => {
         </h2>
        <div className='flex flex-col gap-6'>
        <input type="email" name='email' placeholder='Email' className='rounded-xl bg-gray-50 px-5 py-4 text-gray-100 text-xs font-semibold font-montserrat' />
-        <input type="text" name='password' placeholder='First Name' className='rounded-xl bg-gray-50 px-5 py-4 text-gray-100 text-xs font-semibold font-montserrat' />
+        <input type="text" name='password' placeholder='Password' className='rounded-xl bg-gray-50 px-5 py-4 text-gray-100 text-xs font-semibold font-montserrat' />
        </div>
         <span className='text-gray-100 mt-[10px] cursor-pointer font-montserrat text-xs underline font-medium '>
         Forgot your password?
