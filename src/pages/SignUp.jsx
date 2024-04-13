@@ -16,7 +16,7 @@ const SignUp = () => {
        <input type="text" name='firstName' placeholder='First Name' className='rounded-xl bg-gray-50 px-5 py-4 text-gray-100 text-xs font-semibold font-montserrat' />
         <input type="text" name='lastName' placeholder='Last Name' className='rounded-xl bg-gray-50 px-5 py-4 text-gray-100 text-xs font-semibold font-montserrat' />
         <input type="email" name='email' placeholder='Email' className='rounded-xl bg-gray-50 px-5 py-4 text-gray-100 text-xs font-semibold font-montserrat' />
-        <input type="text" name='password' placeholder='First Name' className='rounded-xl bg-gray-50 px-5 py-4 text-gray-100 text-xs font-semibold font-montserrat' />
+        <input type="text" name='password' placeholder='Password' className='rounded-xl bg-gray-50 px-5 py-4 text-gray-100 text-xs font-semibold font-montserrat' />
         <div className='flex flex-row justify-center items-center gap-2'>
             <input type="checkbox" name='termsAndCondition' />
             <label className='text-gray-100 font-montserrat text-xs font-medium' htmlFor="termsAndCondition">
