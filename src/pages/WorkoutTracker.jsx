@@ -30,11 +30,12 @@ const WorkoutTracker = () => {
             </button>
             <h2 className='text-black w-full font-montserrat text-xl text-center font-semibold'>Workout Tracker</h2>
         </div>
+        <Chart/>
         <div className='flex flex-row bg-alertShade mb-[55px] rounded-[10px] items-center gap-2 px-2 py-[10px]'>
             <LuAlertTriangle size={20} className='text-[#7E96FF]'/>
             <p className='text-black font-medium text-xs font-montserrat  '>You've burned fewer calories than yesterday. Time to get moving! </p>
         </div>
-<Chart/>
+
         <div className='flex flex-col gap-4'>
        <div className='flex flex-row justify-between items-center'>
        <h2 className='text-black  font-montserrat text-base font-semibold'>Upcoming Workout</h2>
